@@ -1,5 +1,19 @@
 /* app css stylesheet */
 
+html, .Container {
+  height: 100%;
+}
+
+html, .col {
+  width: 100%;
+  margin: auto;
+}
 
 
-
+.box {
+  border-radius: 25px;
+  background: #E8E8E8;
+  height: 175px;
+  width: 250px;
+  margin: 10px;
+}

@@ -11,25 +11,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
-  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
-<ul class="w3-navbar w3-border w3-light-grey w3-center">
-  <li style="width:20%"><a class="w3-padding" href="#!/view1">Serveis</a></li>
-  <li style="width:20%"><a class="w3-padding" href="#!/view3">Disponibilitat</a></li>
-  <li style="width:20%"><a class="w3-padding" href="#!/view2">Historic</a></li>
-  <li style="width:20%" class="w3-right"><a href="#">Log out</a></li>
-</ul>
+  <ul class="w3-navbar w3-border w3-light-grey w3-center">
+    <li style="width:20%"><a class="w3-padding" href="#!/view1">Serveis</a></li>
+    <li style="width:20%"><a class="w3-padding" href="#!/view3">Disponibilitat</a></li>
+    <li style="width:20%"><a class="w3-padding" href="#!/view2">Historic</a></li>
+    <li style="width:20%" class="w3-right"><a href="#">Log out</a></li>
+  </ul>
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
   <div ng-view></div>
-
-  <div>Angular seed app: v<span app-version></span></div>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
